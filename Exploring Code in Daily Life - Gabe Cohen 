@@ -1,0 +1,101 @@
+ 
+
+Code that specifies when an alarm clock should start making audible sounds. 
+
+Link: https://github.com/trikita/talalarmo  
+
+Code located in src/main -> alarm -> AlarmService.java -> lines 121-135 
+
+This code first prepares the alarm by setting a loop on the audio file before playing it. In the following lines, the volume increases until it’s at max. The exception line says that there is an exception, and the alarm stops itself when there’s activity. The functionality of this code is to repeat the alarm until the user physically disables it themselves. This forces the user to wake up and manually disable it. 
+
+Code for a rocket targeting system. 
+
+Link: https://github.com/JBezerra/Smart-Rockets  
+
+Code located in sketch.js -> lines 20-29 
+
+This code sets up the target by creating a vector for it before preparing the rocket for takeoff. This is because if the rocket starts flying, there’s limited time to generate a target to lock on to. The functionality of this code is to be smart with rocket launching, and to calculate before takeoff. Once that rocket is up in the air, there’s no way of getting it down. This is used a ton in the military, more specifically in countries with more advanced rocket technology like the US, Israel, and Ukraine.   
+
+File compression utility algorithm. 
+
+Link: https://github.com/moinakg/pcompress 
+
+Code located in utils -> adaptive_compress.c -> lines 110-200 
+
+This code first voids the compression process if certain requirements aren’t met such as file type due to the word “type” repeating. It then uses a bunch of “if” statements to determine which way the file should be compressed. The functionality of this is to compress files without losing information. This is important for websites to optimize speed for user experience and sales. 
+
+Weather forecasting algorithm. 
+
+Link: https://github.com/furkanaskin/Weatherapp  
+
+Code located in app -> src -> main -> java/com/faskn/app/weatherapp -> core -> db -> WeatherDatabase.kt -> lines 3-12 
+
+This code imports Android’s data into the app and assigns it to different on screen widgets. The functionality of a weather forecast algorithm is to predict how the weather will change which affects people in every way, including travel, planning, and how businesses run. 
+
+ 
+
+E-commerce checkout system process. 
+
+Link: https://github.com/shopizer-ecommerce/shopizer 
+
+Code located in sm-core -> src -> main -> java / com -> configuration -> services -> order-> OrderService.java -> lines 56-72 
+
+This code calculates the price on the checkout page through gathering data throughout the site such as shopping cart price. The functionality of this system is to calculate correct prices before checkout. This is important because a ton of shopping is done online, especially during the COVID era, and still to now. 
+
+Social media post scheduler. 
+
+Link: https://github.com/theju/smp 
+
+Code located in scheduler -> management -> admin.py -> lines 3-11 
+
+This code is the admin, which means the managing command of when to schedule posts. One of the lines is “authentication token” which is the trigger to start the process of posting. The functionality of this is for brands and influencers. Consistent posts cause the platform to drive more audience to you, and the algorithm affects you in a positive way. Growth keeps improving with consistency.  
+
+Fitness app calorie counter. 
+
+Link: https://github.com/StormStark/Diet 
+
+Code located in src -> main -> java / com -> DietFragment.java -> lines 98-113 
+
+This code displays the calorie count calculated. The functionality of this is so that users can easily and accessibly track their calorie intake. Decreasing this intake is one of the contributing factors to losing weight. 
+
+Online voting system mechanics. 
+
+Link: https://github.com/srajat/Online-Voting-System 
+
+Code located in voting.aspx.cs -> lines 10-83 
+
+This code is used to process the online votes that count towards an election. The functionality of this is to allow voters easy access to vote. This is important because it can shift how countries work and lead to better democracies with more access to the people.  
+
+Automated email response system. 
+
+Link: https://github.com/yatindma/Automated-Response-Suggestion-for-Email 
+
+Code located in data -> train.json -> line 1 
+
+This code seems to contain hundreds or even thousands of questions that have answers in the code. If a person asks this, the code detects it and matches the correct answer to it. But this doesn’t contain EVERY question in the universe though. The functionality of this is to be able to answer emails without needing a person there to do it for them. This is especially important for businesses, especially small ones with little staff to spend on emails. 
+
+Tire pressure monitoring system 
+
+Link: https://github.com/andi38/TPMS  
+
+Code located in CC1101 -> lines 34-187 
+
+This code receives the tire pressure data from the car by radio transmission, meaning it must be on the same frequency. This is useful because low tire pressure on a car can cause it to be hard to control and could lead to crashes. This is especially the case in colder climates like Chicago.  
+
+Active noise cancelling 
+
+Link: https://github.com/helloworld1/NoiseCanceller 
+
+Code located in src -> NoiseCanceller.java -> lines 117-125 
+
+This section of code is what causes the noise cancellation. Words like phase shift and amplitude are used, which connect to the process of noise cancellation. It works by microphones picking up external noise and sending back the opposite waveform. This is important because so many headphones and earbuds use noise cancellation now which is super important to help people concentrate on work.  
+
+Volume limiter 
+
+Link: https://github.com/andion/PurrfectVolume 
+
+Code located in PurrfectVolume.js -> lines 12-29 
+
+This code decides whether to limit the volume of the device by getting the current volume, then output volume, then deciding whether to limit the volume if headphones are connected. This is important to preserve our hearing since we tend to listen to music with the volume way too high sometimes.  
+
+ 
